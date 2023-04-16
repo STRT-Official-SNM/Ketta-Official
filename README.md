@@ -4,20 +4,23 @@ Dear devlopers,
               <p>This is a public stable release of this assistant, so you may face some bugs or problems.</p>
               
 # Installation
+(Will be updated shortly)
 
-Important note!!! : This build only works on linux(preferably arch linux) but we will soon port it to other OSes (windows is in progress, almost completed!!) as well. Also installing Ketta may take a while.
-
-Requiremets : wget, unzip(this is mosly preinstalled in all linux) and docker(if you want to do speech syntheses)
+# Quickstart
 
 `git clone https://github.com/STRT-Official/Ketta-Official`
 
 `cd Ketta-Official`
 
-`python setup.py`
+now, you have to run `vad.py` and `load.py` seperately
+So :
+`python vad.py`
+`python load.py`
 
-# Using
+# What took so long?
 
-simply run the `vad.py` file.
+We have been working on this for a while now. The main difference between the previous versions and this version is that this version has much faster keyword recognition thanks to developers for using Tensorflow instead of running selenium for using teachablemachine's keyword recognition.
+This version is not fully functional in aspects other than keyword recognition.
 
 Disclaimer : There are situations when the vad.py file will not close when you press ctrl+c. In that case, please close that terminal 
 and use a new one.
