@@ -1,5 +1,9 @@
 # Ketta ..Yet another virtual assistant
 
+
+!!!! Project moved to new repo !!!!
+
+
 Dear devlopers, 
               <p>This is a public stable release of this assistant, so you may face some bugs or problems.</p>
               
